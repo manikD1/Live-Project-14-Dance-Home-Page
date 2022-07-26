@@ -43,9 +43,9 @@
 &nbsp;
 ***
 ## **🔥Netlify Live Link🔥**
-- [Dance Home Page]()
+- [Dance Home Page](https://live-proj-14-fullstackjsbootcamp.netlify.app/)
 
 &nbsp;
 ***
 ## **📷 Post Designing Screenshot 📷**
-![]()
+![](https://github.com/manikD1/Live-Project-14-Dance-Home-Page/blob/main/Actual-Screenshot.JPG)
