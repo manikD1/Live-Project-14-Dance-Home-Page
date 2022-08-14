@@ -234,8 +234,310 @@ li{
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
+    top: 0;
     left: 0;
     height: 100vh;
     width: 650px;
     z-index: -1;
+}
+
+
+/* Mobile Responsiveness */
+
+@media (max-width: 1830px){
+
+    body{
+        overflow-y: scroll;
+    }
+    
+    
+    .hrule1{
+        width: 400px;
+        padding-left: 0;
+    }
+    
+    .hrule2{
+        left: 167px;
+        top: 25px;
+    }
+    
+    .hrule3{
+        width: 30px;
+        transform: rotate(45deg);
+        position: relative;
+        left: 70px;
+        top: 210px;
+    }
+    
+    .hrule4{
+        width: 130px;
+        transform: rotate(90deg);
+        position: relative;
+        left: 0px;
+        top: 155px;
+    }
+    .hrule5{
+        width: 30px;
+        transform: rotate(135deg);
+        position: relative;
+        left: -70px;
+        top: 210px;
+    }
+        
+    
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0 0;
+    }
+    
+    .nav-list{
+        display: flex;
+    }
+    
+    .nav-list-item{
+        font-size: 20px;
+        color: #000000b6;
+        margin: 0 20px;
+    }
+    
+    
+    .logo{
+        margin-right: 20px;
+    }
+
+    
+    .mid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+        margin-top: 1100px;
+    }
+    
+    
+    .social-icon-item{
+        font-size: 30px;
+        padding-top: 40px;
+        padding-left: 80px;
+    }
+    
+    .btn-box{
+        text-align: center;
+    }
+    
+    
+    .btn{        
+        margin-right: 0
+    }
+    
+    
+    .mid-sub{
+        font-size: 33px;
+        color: grey;
+        padding-left: 0px;
+    }
+    
+    
+    .lower{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .lower-list{
+       padding-left: 0px;
+    }
+
+    .dot{
+        font-size: 15px;
+        color:#000000b6;
+        position: relative;
+        bottom: 5px;
+        right: 30px;
+    }
+    
+    .lower-sub{
+       position: relative;
+       left: 0px;
+       margin: 0 50px;
+    }
+    
+    
+    .container::before{
+        top: 200px;
+    }
+    
+
+}
+
+@media (max-width: 1400px){
+
+    .nav{
+        flex-direction: column;
+    }
+
+    .hrule1{
+        margin: 2em 0;
+    }
+
+    .logo{
+        margin-left: 0;
+    }
+    
+    .nav-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .nav-list-item{
+        margin: 1em 0;
+    }
+
+    .container::before{
+        top: 550px;
+    }
+
+    .mid{
+        flex-direction: column;
+    }
+
+    .social-icon-item{
+        padding: 0;
+        margin: 1em 2em;
+    }
+
+    .social-icon{
+        flex-direction: row;
+        padding-left: 0;
+    }
+
+   .btn{
+    margin-bottom: 50px;
+   }
+
+   .lower{
+        flex-direction: column;
+    }
+
+    .hrule2{
+        left: -128px;
+        top: 228px;
+    }
+
+    .lower-sub{
+        margin-top: 70px;
+    }
+    
+    .hrule3{
+        left: -40px;
+        top: 172px;
+    }
+    
+    .hrule4{
+        left: -30px;
+        top: 100px;
+    }
+    .hrule5{
+        left: -20px;
+        top: 136px;
+    }
+
+}
+
+@media (max-width: 700px){
+
+    .logo{
+        height: 3rem;
+    }
+
+    .hrule1{
+        width: 280px;
+    }
+
+    .nav-list-item{
+        font-size: 1rem;
+    }
+
+    .container::before{
+        height: 50vh;
+        width: 280px;
+        top: 450px;
+    }
+
+    .mid{    
+        margin-top: 700px;
+    }
+
+    .mid-heading{
+        font-size: 5rem;
+        line-height: 80px;
+    }
+
+    .mid-sub{
+        font-size: 1.2rem;
+        padding-left: 210px;
+    }
+
+    .social-icon-item{
+        font-size: 1.2rem;
+        margin: 0 1.5rem;
+    }
+
+    .btn{
+        font-size: 1rem;
+        width: 280px;
+    }
+
+    .lower-list-item{
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .dot{
+        font-size: 0.5rem;
+        padding-top: 0.6rem;
+    }
+
+    .lower-sub-head{
+        font-size: 2rem;
+    }
+    
+    .lower-sub-para{
+        font-size: 1rem;
+        width: 300px;
+    }
+
+    .lower-sub-image{
+        height: 150px;
+    }
+    
+    .hrule2{
+        left: -93px;
+        top: 175px;
+        width: 280px;
+    }
+
+    .lower-sub{
+        margin-top: 70px;
+    }
+    
+    .hrule3{
+        left: -10px;
+        top: 172px;
+    }
+    
+    .hrule4{
+        left: 0px;
+        top: 100px;
+    }
+    .hrule5{
+        left: 10px;
+        top: 136px;
+    }
+
 }
